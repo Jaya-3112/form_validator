@@ -18,7 +18,7 @@ function validateForm() {
     return;
   }
   // Check to see if passwords match
-  if (password1El === password2El) {
+  if (password1El.value === password2El.value) {
     passwordsMatch = true;
     password1El.style.borderColor = "green";
     password2El.style.borderColor = "green";
